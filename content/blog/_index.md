@@ -1,4 +1,4 @@
 ---
 title: "Blog"
-weight = "2"
+weight: "2"
 ---
