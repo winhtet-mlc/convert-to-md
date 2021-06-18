@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ご注文の用語集です！ on My New Hugo Site</title>
+    <link>http://localhost/glossary/glossary/</link>
+    <description>Recent content in ご注文の用語集です！ on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost/glossary/glossary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用語集（あ行）</title>
+      <link>http://localhost/glossary/glossary/glossary-ja-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/glossary/glossary/glossary-ja-a/</guid>
+      <description>あ い う え お </description>
+    </item>
+    
+    <item>
+      <title>用語集（か行）</title>
+      <link>http://localhost/glossary/glossary/glossary-ja-ka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/glossary/glossary/glossary-ja-ka/</guid>
+      <description>か き 共分散  読み: きょうぶんさん 英語での表現: covariance Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、平均を中心として複数の確率変数やカラムの値がどのようにばらつくかの傾向を示すもの。確率変数 \(X, Y\) の平均をそれぞれ \(\mu_X, \mu_Y\) としたとき、 \(X, Y\) の共分散を
+\[ \sigma_{X Y} = \mathrm{Cov} ( X , Y ) = \mathrm{E} [ ( X - \mu_X ) ( Y - \mu_Y ) ] \]
+で定める。特に、自分自身との共分散 \(\mathrm{Cov} ( X , Y )\) は分散 \(\mathrm{V} [ X ]\) に一致する。データ \(\{ ( X_1, Y_1 ), \ldots, ( X_n, Y_n ) \}\) について、 \(\{ X_i \}, \{ Y_i \}\) の標本平均をそれぞれ \(\bar{X}, \bar{Y}\) としたとき、このデータの標本共分散 (sample covariance) は</description>
+    </item>
+    
+    <item>
+      <title>用語集（さ行）</title>
+      <link>http://localhost/glossary/glossary/glossary-ja-sa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/glossary/glossary/glossary-ja-sa/</guid>
+      <description>さ 最小値  読み: さいしょうち 英語での表現: minimum Tags: 確率・統計  データの特徴を表す指標の一つで、データ \(\{ X_1, \ldots, X_n \}\) の中で最も小さい値
+\[ \min_{1 \le i \le n} X_i \]
+のことを指す。
+最大値  読み: さいだいち 英語での表現: maximum Tags: 確率・統計  データの特徴を表す指標の一つで、データ \(\{ X_1, \ldots, X_n \}\) の中で最も大きい値
+\[ \max_{1 \le i \le n} X_i \]
+のことを指す。
+最頻値  読み: さいひんち 英語での表現: mode Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、その分布やデータで最も多く出現する値のこと。確率変数 \(X\) が連続分布に従う場合はその確率密度関数が、離散分布に従う場合はその確率質量関数がそれぞれ最大値を取る値を \(X\) の最頻値という。データ \(\{ X_1, \ldots, X_n \}\) については、その中で最も多く出現する値（複数ある場合がある）をそのデータの最頻値という。</description>
+    </item>
+    
+    <item>
+      <title>用語集（た行）</title>
+      <link>http://localhost/glossary/glossary/glossary-ja-ta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/glossary/glossary/glossary-ja-ta/</guid>
+      <description>た ち 中央値  読み: ちゅうおうち 英語での表現: median Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、その値を境界に分布やデータが丁度半分ずつに分けられるような値のことを指す。確率変数 \(X\) については、
+\[ P ( X \le m ) \ge \frac{1}{2} \; \text{and} \; P ( X \ge m ) \ge \frac{1}{2} \]
+をみたすような \(m\) を \(X\) の中央値という。データ \(\{ X_1, \ldots, X_n \}\) については、これらの値を小さい方から順に並べ替えた物を \(\{ X_{\sigma(1)}, \ldots, X_{\sigma(n)} \} \; ( X_{\sigma(1)} \le \ldots \le X_{\sigma(n)} )\) として
+\[ X_\text{med} = \left\{ \begin{array}{cc} \frac{1}{2} X_{\sigma(\frac{n - 1}{2})} + \frac{1}{2} X_{\sigma(\frac{n + 1}{2})} &amp;amp; ( n: \text{odd} ) \\ X_{\sigma(\frac{n}{2})} &amp;amp; ( n: \text{even} ) \end{array} \right.</description>
+    </item>
+    
+    <item>
+      <title>用語集（な行）</title>
+      <link>http://localhost/glossary/glossary/glossary-ja-na/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/glossary/glossary/glossary-ja-na/</guid>
+      <description>な に ぬ ね の </description>
+    </item>
+    
+    <item>
+      <title>用語集（は行）</title>
+      <link>http://localhost/glossary/glossary/glossary-ja-ha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/glossary/glossary/glossary-ja-ha/</guid>
+      <description>は ひ 標準偏差  読み: ひょうじゅんへんさ 英語での表現: standard deviation Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、平均からの分布やデータのばらつきの程度を示すもの。確率変数 \(X\) の分散を \(\sigma^2\) としたとき、 \(X\) の標準偏差を
+\[ \sigma = \sqrt{\sigma^2} \]
+で定める。データ \(\{ X_1, \ldots, X_n \}\) の標本分散に関連する用語には揺れがあるが、データの不偏分散を \(s^2\) としたとき、その平方根
+\[ s = \sqrt{s^2} \]
+をデータの標本標準偏差 (sample standard deviation) と呼ぶことが多い。一般に、標本標準偏差はデータの従う確率分布の標準偏差の不偏推定量ではない。
+ふ 分位点  読み: ぶんいてん 英語での表現: quantile Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、その値を境界に分布やデータが丁度 \(q : ( 1 - q )\) に分けられるような値のことを指す。確率変数 \(X\) については、
+\[ P ( X \le Q_q ) \ge q \; \text{and} \; P ( X \ge Q_q ) \ge 1 - q \]</description>
+    </item>
+    
+    <item>
+      <title>用語集（ま行）</title>
+      <link>http://localhost/glossary/glossary/glossary-ja-ma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/glossary/glossary/glossary-ja-ma/</guid>
+      <description>ま み む め も </description>
+    </item>
+    
+    <item>
+      <title>用語集（や・ら・わ行）</title>
+      <link>http://localhost/glossary/glossary/glossary-ja-yarawa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/glossary/glossary/glossary-ja-yarawa/</guid>
+      <description>や ゆ よ ら り る れ ろ わ 歪度  読み: わいど 英語での表現: skewness Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、平均を中心とした分布の非対称性の程度を示すもの。確率変数 \(X\) の平均を \(\mu\)、標準偏差を \(\sigma\) としたとき、 \(X\) の歪度を
+\[ \mathrm{Skew} [ X ] = \frac{\mathrm{E} [ ( X - \mu ) ^3 ]}{\sigma^3} \]
+で定める。歪度が負の値を取る場合は分布が実軸上で平均より小さい向きに、逆に正の値を取る場合は平均より大きい向きにそれぞれ偏っていると考えられる。データ \(\{ X_1, \ldots, X_n \}\) の平均を \(\bar{X}\)、不偏分散を \(s^2\) とすると、データの歪度はモーメントの推定値から
+\[ \gamma_1 = \frac{\frac{1}{n} \sum_{i=1}^n ( X_i - \bar{X} ) ^3}{s^3} \]
+や、キュムラントの推定値から
+\[ G_1 = \frac{\sqrt{n ( n - 1 )}}{n - 2} \frac{\frac{1}{n} \sum_{i=1}^n ( X_i - \bar{X} ) ^3}{\left( \frac{1}{n} \sum_{i=1}^n ( X_i - \bar{X} ) ^2 \right) ^\frac{3}{2}} \]</description>
+    </item>
+    
+    <item>
+      <title>用語集（英字）</title>
+      <link>http://localhost/glossary/glossary/glossary-en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/glossary/glossary/glossary-en/</guid>
+      <description>A </description>
+    </item>
+    
+  </channel>
+</rss>

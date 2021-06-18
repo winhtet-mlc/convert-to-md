@@ -1,0 +1,127 @@
+[
+{
+	"uri": "http://localhost/glossary/glossary/",
+	"title": "ご注文の用語集です！",
+	"tags": [],
+	"description": "",
+	"content": " 用語集（あ行） 用語集（か行） 用語集（さ行） 用語集（た行） 用語集（な行） 用語集（は行） 用語集（ま行） 用語集（や・ら・わ行） 用語集（英字）  "
+},
+{
+	"uri": "http://localhost/about/",
+	"title": "About",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost/blog/",
+	"title": "Blog",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost/post/",
+	"title": "Post",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost/analyze/",
+	"title": "分析",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost/glossary/glossary/glossary-ja-a/",
+	"title": "用語集（あ行）",
+	"tags": [],
+	"description": "",
+	"content": "あ い う え お "
+},
+{
+	"uri": "http://localhost/glossary/",
+	"title": "用語集",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost/glossary/glossary/glossary-ja-ka/",
+	"title": "用語集（か行）",
+	"tags": [],
+	"description": "",
+	"content": "か き 共分散  読み: きょうぶんさん 英語での表現: covariance Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、平均を中心として複数の確率変数やカラムの値がどのようにばらつくかの傾向を示すもの。確率変数 \\(X, Y\\) の平均をそれぞれ \\(\\mu_X, \\mu_Y\\) としたとき、 \\(X, Y\\) の共分散を\n\\[ \\sigma_{X Y} = \\mathrm{Cov} ( X , Y ) = \\mathrm{E} [ ( X - \\mu_X ) ( Y - \\mu_Y ) ] \\]\nで定める。特に、自分自身との共分散 \\(\\mathrm{Cov} ( X , Y )\\) は分散 \\(\\mathrm{V} [ X ]\\) に一致する。データ \\(\\{ ( X_1, Y_1 ), \\ldots, ( X_n, Y_n ) \\}\\) について、 \\(\\{ X_i \\}, \\{ Y_i \\}\\) の標本平均をそれぞれ \\(\\bar{X}, \\bar{Y}\\) としたとき、このデータの標本共分散 (sample covariance) は\n\\[ \\frac{1}{n} \\sum_{i=1}^n ( X_i - \\bar{X} ) ( Y_i - \\bar{Y} ) \\]\nを指すこともあれば、 \\(n\\) の代わりに \\(n - 1\\) で除した\n\\[ \\frac{1}{n - 1} \\sum_{i=1}^n ( X_i - \\bar{X} ) ( Y_i - \\bar{Y} ) \\]\nを指すこともある。 \\(( X_i, Y_i )\\) の組が独立同分布のとき、後者の標本分散は元の分布の共分散の不偏推定量になっており、これゆえ特に不偏（標本）共分散とも呼ばれる。\nく け こ "
+},
+{
+	"uri": "http://localhost/glossary/glossary/glossary-ja-sa/",
+	"title": "用語集（さ行）",
+	"tags": [],
+	"description": "",
+	"content": "さ 最小値  読み: さいしょうち 英語での表現: minimum Tags: 確率・統計  データの特徴を表す指標の一つで、データ \\(\\{ X_1, \\ldots, X_n \\}\\) の中で最も小さい値\n\\[ \\min_{1 \\le i \\le n} X_i \\]\nのことを指す。\n最大値  読み: さいだいち 英語での表現: maximum Tags: 確率・統計  データの特徴を表す指標の一つで、データ \\(\\{ X_1, \\ldots, X_n \\}\\) の中で最も大きい値\n\\[ \\max_{1 \\le i \\le n} X_i \\]\nのことを指す。\n最頻値  読み: さいひんち 英語での表現: mode Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、その分布やデータで最も多く出現する値のこと。確率変数 \\(X\\) が連続分布に従う場合はその確率密度関数が、離散分布に従う場合はその確率質量関数がそれぞれ最大値を取る値を \\(X\\) の最頻値という。データ \\(\\{ X_1, \\ldots, X_n \\}\\) については、その中で最も多く出現する値（複数ある場合がある）をそのデータの最頻値という。\nし 順位相関係数  読み: じゅんいそうかんけいすう 英語での表現: rank correlation coefficient Tags: 確率・統計  データの特徴を表す指標の一つで、複数のカラムの値が順位の意味でどのようにばらつくかの傾向を示すもの。Spearmanの順位相関係数 (Spearman rank correlation coefficient, Spearman\u0026rsquo;s rho) とKendallの順位相関係数（Kendall rank correlation coefficient, Kendall\u0026rsquo;s tau) の2つがよく用いられる。以下ではSpearmanの順位相関係数について述べる。\nデータ \\(\\{ ( X_1, Y_1 ), \\ldots, ( X_n, Y_n ) \\}\\) について、それぞれの \\(\\{ X_i \\}, \\{ Y_i \\}\\) 内での順位を \\(\\{ ( R_1, Q_1 ), \\ldots, ( R_n, Q_n ) \\}\\) とする。ただし、複数の値が同順になる場合はそれらの値に全て対応する中間の順位を割り振る（例えば \\(X_1, \\ldots, X_4\\) が全て「3位タイ」であるとき、 \\(Q_1 = \\cdots = Q_4 = \\frac{3 + 4 + 5 + 6}{4} = 4.5\\) とする）。このとき、Spearmanの順位相関係数を\n\\[ r_S = \\frac{\\sum_{i = 1}^n (R_i - \\bar{R} ) ( Q_i - \\bar{Q} )}{\\sqrt{\\sum_{i = 1}^n ( R_i - \\bar{R} ) ^2} \\sqrt{\\sum_{i = 1}^n ( Q_i - \\bar{Q} ) ^2}} \\]\nで定める。ここで \\(\\bar{R}, \\bar{Q}\\) はそれぞれ \\(\\{ R_i \\}, \\{ Q_i \\}\\) の標本平均とする。これは標本の順位 \\(\\{ (R_i, Q_i) \\}\\) についてのPearsonの積率相関係数であるが、 \\(\\{ (X_i, Y_i) \\}\\) に対する通常の（Pearsonの）相関係数が両者の線形の関係しか捉えられないのに対し、（Spearmanの）順位相関係数は両者の単調な関係を捉えることができる。なお、標本の中に同順の値が存在しないときは\n\\[ r_S = 1 - \\frac{6 \\sum_{i = 1}^n ( R_i - Q_i ) ^2}{n ( n^2 - 1 )} \\]\nと簡単に計算できる。\n関連項目\n 相関係数: Pearsonの積率相関係数  す せ 尖度  読み: せんど 英語での表現: kurtosis Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、平均を中心とした分布の尖り具合の程度を示すもの。確率変数 \\(X\\) の平均を \\(\\mu\\)、標準偏差を \\(\\sigma\\) としたとき、 \\(X\\) の尖度を\n\\[ \\mathrm{Kurt} [ X ] = \\frac{\\mathrm{E} [ ( X - \\mu ) ^4 ]}{\\sigma^4} \\]\nで定める。この定義において正規分布の尖度は3であり、尖度が3より小さい値を取る場合は正規分布より尖っていない（裾の重い）、逆に3より大きい値を取る場合は正規分布より尖っている（裾の軽い）分布であるとそれぞれ考えられる。このため\n\\[ \\mathrm{Kurt} [ X ] - 3 = \\frac{\\mathrm{E} [ ( X - \\mu ) ^4 ]}{\\sigma^4} - 3 \\]\nは過剰尖度 (excess kurtosis) と呼ばれ、またこの値を尖度と定義する場合もある。データ \\(\\{ X_1, \\ldots, X_n \\}\\) の平均を \\(\\bar{X}\\)、不偏分散を \\(s^2\\) とすると、データの過剰尖度はモーメントの推定値から\n\\[ \\gamma_2 = \\frac{\\frac{1}{n} \\sum_{i=1}^n ( X_i - \\bar{X} ) ^4}{s^4} - 3 \\]\nや、キュムラントの推定値から\n\\[ G_2 = \\frac{( n - 1 ) ( n + 1 )}{( n - 2 ) ( n - 3 )} \\frac{\\frac{1}{n} \\sum_{i=1}^n ( X_i - \\bar{X} ) ^4}{\\left( \\frac{1}{n} \\sum_{i=1}^n ( X_i - \\bar{X} ) ^2 \\right) ^2} - \\frac{3 ( n - 1 ) ^2}{( n - 2 ) ( n - 3 )} \\]\nとそれぞれ計算される。\nそ 相関係数  読み: そうかんけいすう 英語での表現: correlation coefficient Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、複数の確率変数やカラムの値がどのようにばらつくかの傾向を示すもの。いくつかの定義があるが、一般にはPearsonの積率相関係数 (Pearson correlation coefficient) のことを指す。確率変数 \\(X, Y\\) の標準偏差をそれぞれ \\(\\sigma_X, \\sigma_Y\\)、共分散を \\(\\mathrm{Cov} ( X, Y )\\) としたとき、 \\(X, Y\\) の相関係数を\n\\[ \\rho_{X Y} = \\frac{\\mathrm{Cov} ( X , Y )}{\\sigma_X \\sigma_Y} \\]\nで定める。相関係数 \\(\\rho_{X Y}\\) は \\(-1 \\le \\rho_{X Y} \\le 1\\) をみたす。相関係数の値に対する解釈は\n \\(\\rho_{X Y}\\) が正の値をとるとき、 \\(X\\) の値が増加すると対応する \\(Y\\) の値も増加する傾向にある \\(\\rho_{X Y}\\) が負の値をとるとき、 \\(X\\) の値が増加すると対応する \\(Y\\) の値は減少する傾向にある \\(| \\rho_{X Y} |\\) の値が \\(1\\) に近い程、 \\(( X, Y )\\) の組は直線状に分布する傾向にある  などがある。データ \\(\\{ ( X_1, Y_1 ), \\ldots, ( X_n, Y_n ) \\}\\) について、 \\(\\{ X_i \\}, \\{ Y_i \\}\\) の標本平均をそれぞれ \\(\\bar{X}, \\bar{Y}\\) 、（不偏）標本標準偏差をそれぞれ \\(s_X, s_Y\\) 、（不偏）標本共分散を \\(s_{X Y}\\) としたとき、このデータの標本相関係数 (sample correlation coefficient) を\n\\[ r_{X Y} = \\frac{s_{X Y}}{s_X s_Y} = \\frac{\\sum_{i = 1}^n ( X_i - \\bar{X} ) ( Y_i - \\bar{Y} )}{\\sqrt{\\sum_{i = 1}^n ( X_i - \\bar{X} ) ^2} \\sqrt{\\sum_{i = 1}^n ( Y_i - \\bar{Y} ) ^2}} \\]\nで定める。なお、これはデータの従う確率分布の相関係数の不偏推定量にはなっていない。\n関連項目\n 順位相関係数  "
+},
+{
+	"uri": "http://localhost/glossary/glossary/glossary-ja-ta/",
+	"title": "用語集（た行）",
+	"tags": [],
+	"description": "",
+	"content": "た ち 中央値  読み: ちゅうおうち 英語での表現: median Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、その値を境界に分布やデータが丁度半分ずつに分けられるような値のことを指す。確率変数 \\(X\\) については、\n\\[ P ( X \\le m ) \\ge \\frac{1}{2} \\; \\text{and} \\; P ( X \\ge m ) \\ge \\frac{1}{2} \\]\nをみたすような \\(m\\) を \\(X\\) の中央値という。データ \\(\\{ X_1, \\ldots, X_n \\}\\) については、これらの値を小さい方から順に並べ替えた物を \\(\\{ X_{\\sigma(1)}, \\ldots, X_{\\sigma(n)} \\} \\; ( X_{\\sigma(1)} \\le \\ldots \\le X_{\\sigma(n)} )\\) として\n\\[ X_\\text{med} = \\left\\{ \\begin{array}{cc} \\frac{1}{2} X_{\\sigma(\\frac{n - 1}{2})} + \\frac{1}{2} X_{\\sigma(\\frac{n + 1}{2})} \u0026amp; ( n: \\text{odd} ) \\\\ X_{\\sigma(\\frac{n}{2})} \u0026amp; ( n: \\text{even} ) \\end{array} \\right. \\]\nなる \\(X_\\text{med}\\) をデータの中央値という。\nつ て と "
+},
+{
+	"uri": "http://localhost/glossary/glossary/glossary-ja-na/",
+	"title": "用語集（な行）",
+	"tags": [],
+	"description": "",
+	"content": "な に ぬ ね の "
+},
+{
+	"uri": "http://localhost/glossary/glossary/glossary-ja-ha/",
+	"title": "用語集（は行）",
+	"tags": [],
+	"description": "",
+	"content": "は ひ 標準偏差  読み: ひょうじゅんへんさ 英語での表現: standard deviation Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、平均からの分布やデータのばらつきの程度を示すもの。確率変数 \\(X\\) の分散を \\(\\sigma^2\\) としたとき、 \\(X\\) の標準偏差を\n\\[ \\sigma = \\sqrt{\\sigma^2} \\]\nで定める。データ \\(\\{ X_1, \\ldots, X_n \\}\\) の標本分散に関連する用語には揺れがあるが、データの不偏分散を \\(s^2\\) としたとき、その平方根\n\\[ s = \\sqrt{s^2} \\]\nをデータの標本標準偏差 (sample standard deviation) と呼ぶことが多い。一般に、標本標準偏差はデータの従う確率分布の標準偏差の不偏推定量ではない。\nふ 分位点  読み: ぶんいてん 英語での表現: quantile Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、その値を境界に分布やデータが丁度 \\(q : ( 1 - q )\\) に分けられるような値のことを指す。確率変数 \\(X\\) については、\n\\[ P ( X \\le Q_q ) \\ge q \\; \\text{and} \\; P ( X \\ge Q_q ) \\ge 1 - q \\]\nをみたすような \\(Q_q\\) を \\(X\\) の \\(q\\)-分位点という。中央値は \\(0.5\\)-分位点である。また、 \\(0.25\\)-分位点を第1四分位点、 \\(0.75\\)-分位点を第3四分位点といい、 \\(q\\)-分位点のことを \\(100 q\\)-パーセント点 (percentile) ともいう。データ \\(\\{ X_1, \\ldots, X_n \\}\\) については、これらの値を小さい方から順に並べ替えた物を \\(\\{ X_{\\sigma(1)}, \\ldots, X_{\\sigma(n)} \\} \\; ( X_{\\sigma(1)} \\le \\ldots \\le X_{\\sigma(n)} )\\) として、 \\(t_q = 1 - q + q n\\) について\n\\[ Q_q = \\left\\{ \\begin{array}{cc} ( \\lceil t_q \\rceil - t_q ) X_{\\sigma(\\lfloor t_q \\rfloor)} + ( t_q - \\lfloor t_q \\rfloor ) X_{\\sigma(\\lceil t_q \\rceil)} \u0026amp; ( t_q \\notin \\mathbf{Z} ) \\\\ X_{\\sigma(t_q)} \u0026amp; ( t_q \\in \\mathbf{Z} ) \\end{array} \\right. \\]\nなる \\(Q_q\\) をデータの \\(q\\)-分位点という。データの第1四分位点、第3四分位点、パーセント点等についても同様に定める。\n分散  読み: ぶんさん 英語での表現: variance Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、平均からの分布やデータのばらつきの程度を示すもの。確率変数 \\(X\\) の平均を \\(\\mu\\) としたとき、 \\(X\\) の分散を\n\\[ \\sigma^2 = \\mathrm{V} [ X ] = \\mathrm{E} [ ( X - \\mu ) ^2 ] \\]\nで定める。データ \\(\\{ X_1, \\ldots, X_n \\}\\) の平均を \\(\\bar{X}\\) としたとき、このデータの標本分散 (sample variance) を\n\\[ \\hat{\\sigma}^2 = \\frac{1}{n} \\sum_{i=1}^n ( X_i - \\bar{X} ) ^2 \\]\nで、不偏分散 (unbiased variance) を\n\\[ s^2 = \\frac{1}{n - 1} \\sum_{i=1}^n ( X_i - \\bar{X} ) ^2 = \\frac{n}{n - 1} \\hat{\\sigma}^2 \\]\nでそれぞれ定める。データが独立同分布のとき、不偏分散はその確率分布の分散（存在すれば）の不偏推定量になっている。\nへ 平均  読み: へいきん 英語での表現: mean Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、算術平均の意味でデータの中間的な値を示すもの。一般に、確率変数 \\(X\\) の平均（推測統計における母平均 (population mean) に相当）はその期待値\n\\[ \\mu = \\mathrm{E} [ X ] \\]\nで、データ \\(\\{ X_1, \\ldots, X_n \\}\\) の平均（推測統計における標本平均 (sample mean) に相当）はその算術平均\n\\[ \\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i \\]\nでそれぞれ定める。データが独立同分布のとき、平均はその確率分布の平均（存在すれば）の不偏推定量になっている。\nほ "
+},
+{
+	"uri": "http://localhost/glossary/glossary/glossary-ja-ma/",
+	"title": "用語集（ま行）",
+	"tags": [],
+	"description": "",
+	"content": "ま み む め も "
+},
+{
+	"uri": "http://localhost/glossary/glossary/glossary-ja-yarawa/",
+	"title": "用語集（や・ら・わ行）",
+	"tags": [],
+	"description": "",
+	"content": "や ゆ よ ら り る れ ろ わ 歪度  読み: わいど 英語での表現: skewness Tags: 確率・統計  確率分布やデータの特徴を表す指標の一つで、平均を中心とした分布の非対称性の程度を示すもの。確率変数 \\(X\\) の平均を \\(\\mu\\)、標準偏差を \\(\\sigma\\) としたとき、 \\(X\\) の歪度を\n\\[ \\mathrm{Skew} [ X ] = \\frac{\\mathrm{E} [ ( X - \\mu ) ^3 ]}{\\sigma^3} \\]\nで定める。歪度が負の値を取る場合は分布が実軸上で平均より小さい向きに、逆に正の値を取る場合は平均より大きい向きにそれぞれ偏っていると考えられる。データ \\(\\{ X_1, \\ldots, X_n \\}\\) の平均を \\(\\bar{X}\\)、不偏分散を \\(s^2\\) とすると、データの歪度はモーメントの推定値から\n\\[ \\gamma_1 = \\frac{\\frac{1}{n} \\sum_{i=1}^n ( X_i - \\bar{X} ) ^3}{s^3} \\]\nや、キュムラントの推定値から\n\\[ G_1 = \\frac{\\sqrt{n ( n - 1 )}}{n - 2} \\frac{\\frac{1}{n} \\sum_{i=1}^n ( X_i - \\bar{X} ) ^3}{\\left( \\frac{1}{n} \\sum_{i=1}^n ( X_i - \\bar{X} ) ^2 \\right) ^\\frac{3}{2}} \\]\nとそれぞれ計算される。\n"
+},
+{
+	"uri": "http://localhost/glossary/glossary/glossary-en/",
+	"title": "用語集（英字）",
+	"tags": [],
+	"description": "",
+	"content": "A "
+},
+{
+	"uri": "http://localhost/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost/",
+	"title": "My New Hugo Site",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
