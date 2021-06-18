@@ -1,0 +1,40 @@
+baseURL = "https://hugo.github.io/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-theme-learn"
+
+[params]
+    # Title
+    title = "hugo-theme-learn"
+
+    # Date format
+    dateformat = "" # default "12 April 2021"
+
+    # path name excluded from documentation menu
+    menu_exclusion = [
+        "archives",
+        "archive",
+        "blog",
+        "entry",
+        "post",
+        "posts",
+    ]
+
+## コンテンツ用設定
+[menu]
+[[menu.main]]
+    identifier = "about"
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = 4
+
+[outputs]
+  home = [ "HTML", "JSON"]
+  page = [ "HTML"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+theme = "hugo-theme-learn"
