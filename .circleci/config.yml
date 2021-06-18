@@ -12,7 +12,7 @@ jobs:
       - run: rm -rf public
       - run:
           name: Run shell file for build and deploy
-          command: ./script/deploy.sh
+          command: sh ./script/deploy.sh
 workflows:
   main:
     jobs:
