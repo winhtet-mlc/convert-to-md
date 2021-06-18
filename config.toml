@@ -1,7 +1,8 @@
-baseURL = "https://hugo.github.io/"
+baseURL = "http://localhost"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-theme-learn"
+disqusShortname = "gochikika"
 
 [params]
     # Title
@@ -37,4 +38,3 @@ theme = "hugo-theme-learn"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-theme = "hugo-theme-learn"
