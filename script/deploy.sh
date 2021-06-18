@@ -1,19 +1,19 @@
 #!/bin/bash -eux
 
- 
+
 
 GIT_REPO="git@github.com:${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git"
 
- 
+
 
 git submodule init
 git submodule update
 
- 
+
 
 remote=`git ls-remote --heads 2> /dev/null | grep deploy || true`
 
- 
+
 
 if [ -n "$remote" ]; then
   git clone -b deploy "${GIT_REPO}" public
@@ -26,13 +26,12 @@ else
   cd ..
 fi
 
- 
+
 
 git config --global user.email "${GIT_USER_EMAIL}"
 git config --global user.name "${GIT_USER_NAME}"
 git clone "${GIT_REPO}"
 ls
-cp -rp ~/tmp/workspace/content/* ./content/
 hugo
 cd public
 pwd
