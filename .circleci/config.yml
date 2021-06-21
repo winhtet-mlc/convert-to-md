@@ -12,16 +12,6 @@ jobs:
       - run:
           name: Run shell file for build and deploy
           command: ./script/deploy.sh
-  run:
-    docker:
-      - image: circleci/python:3.7.6
-    steps:
-      - checkout
-      - run:
-          name: Run
-          command: |
-            git checkout deploy
-            python -m http.server 8000
 workflows:
   main:
     jobs:
