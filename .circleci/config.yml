@@ -19,7 +19,9 @@ jobs:
       - checkout
       - run:
           name: Run
-          command: python -m http.server 8000
+          command: |
+            git checkout deploy
+            python -m http.server 8000
 workflows:
   main:
     jobs:
