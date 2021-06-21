@@ -1,0 +1,20 @@
+version: 2.1
+
+jobs:
+  build-deploy:
+    docker:
+      - image: cibuilds/hugo:latest
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "${FINGER_PRINT}"
+      - checkout
+      - run:
+          name: Pull Deploy
+          command: |
+            git checkout origin deploy
+            git pull origin deploy 
+workflows:
+  main:
+    jobs:
+      - build-deploy
