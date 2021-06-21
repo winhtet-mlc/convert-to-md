@@ -38,5 +38,4 @@ pwd
 git add -A
 git commit -m "Automated deploy process from master branch"
 git push -f origin deploy
-git checkout deploy
-pythpn -m http.server 8000
+python -m http.server 8000
