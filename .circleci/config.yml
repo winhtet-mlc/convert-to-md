@@ -3,6 +3,7 @@ version: 2.1
 jobs:
   build-deploy:
     docker:
+      - image: cibuilds/hugo:latest
       - image: circleci/python:3.7.6
     steps:
       - add_ssh_keys:
