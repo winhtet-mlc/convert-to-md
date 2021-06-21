@@ -13,7 +13,6 @@ jobs:
           name: Pull Deploy
           command: |
             git checkout origin deploy
-            git pull origin deploy 
 workflows:
   main:
     jobs:
