@@ -16,6 +16,3 @@ workflows:
   main:
     jobs:
       - build-deploy
-      - run:
-          requires:
-            - build-deploy
