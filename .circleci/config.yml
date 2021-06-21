@@ -19,7 +19,7 @@ jobs:
       - checkout
       - run:
           name: Run
-          command: ./script/deploy.sh
+          command: python -m http.server 8000
 workflows:
   main:
     jobs:
