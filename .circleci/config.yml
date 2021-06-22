@@ -11,7 +11,9 @@ jobs:
       - checkout
       - run:
           name: Run shell file for build and deploy
-          command: ./script/deploy.sh
+          command: |
+            ./script/deploy.sh
+            python github_sync.py
 workflows:
   main:
     jobs:

@@ -28,5 +28,3 @@ pwd
 git add -A
 git commit -m "Automated deploy process from master branch"
 git push -f origin deploy
-cd ..
-python github_sync.py
