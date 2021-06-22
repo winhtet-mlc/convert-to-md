@@ -22,6 +22,7 @@ LOCAL_DIR = "/home/mlc/hugoSites/deploy.hugo.github.io"
 
 
 def github_sync(directory):
+    print (os.getcwd());
     os.chdir(directory)
     remote_sha = fetch_remove_sha()
     local_sha = fetch_local_sha()
