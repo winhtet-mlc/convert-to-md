@@ -11,9 +11,7 @@ jobs:
       - checkout
       - run:
           name: Run shell file for build and deploy
-          command: |
-            ./script/deploy.sh
-            python github_sync.py
+          command: ./script/deploy.sh
   sync:
     docker:
       - image: circleci/python:3.7.6
