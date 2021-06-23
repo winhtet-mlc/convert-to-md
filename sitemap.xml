@@ -4,6 +4,8 @@
   <url>
     <loc>http://localhost/glossary/glossary/</loc>
   </url><url>
+    <loc>http://localhost/blog/</loc>
+  </url><url>
     <loc>http://localhost/analyze/</loc>
   </url><url>
     <loc>http://localhost/glossary/glossary/glossary-ja-a/</loc>
