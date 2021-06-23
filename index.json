@@ -7,13 +7,6 @@
 	"content": " 用語集（あ行） 用語集（か行） 用語集（さ行） 用語集（た行） 用語集（な行） 用語集（は行） 用語集（ま行） 用語集（や・ら・わ行） 用語集（英字）  "
 },
 {
-	"uri": "http://localhost/about/",
-	"title": "About",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "http://localhost/analyze/",
 	"title": "分析",
 	"tags": [],
