@@ -14,13 +14,6 @@
 	"content": ""
 },
 {
-	"uri": "http://localhost/blog/",
-	"title": "Blog",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "http://localhost/analyze/",
 	"title": "分析",
 	"tags": [],
