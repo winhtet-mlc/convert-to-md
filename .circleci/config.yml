@@ -12,18 +12,14 @@ jobs:
       - run:
           name: Run shell file for build and deploy
           command: ./script/deploy.sh
-  sync:
-    docker:
-      - image: circleci/python:3.7.6
-    steps:
-      - checkout
-      - run:
-          name: Github Sync
-          command: python github_sync.py
+
 workflows:
   main:
     jobs:
       - build-deploy
-      - sync:
-          requires:
-            - build-deploy
+
+deployment:
+   dev:
+     branch: develop
+     commands:
+       - ssh mlc@192.168.125.129 'cd /home/mlc/hugoSites/deploy.hugo.github.io && git pull origin deploy'
