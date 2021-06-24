@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  build-deploy:
+  build:
     docker:
       - image: cibuilds/hugo:latest
     steps:
@@ -12,14 +12,19 @@ jobs:
       - run:
           name: Run shell file for build and deploy
           command: ./script/deploy.sh
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - run:
+          name: Deploy in Local
+          command: |
+            ssh mlc@192.168.125.129 "git pull origin deploy"
 
 workflows:
   main:
     jobs:
-      - build-deploy
-
-deployment:
-  production:
-    branch: develop
-    commands:
-      - scp -r convert-to-md/* mlc@192.168.125.129:/home/mlc/hugoSites/deploy.hugo.github.io/convert-to-md
+      - build
+      - deploy:
+          requires:
+            - build
