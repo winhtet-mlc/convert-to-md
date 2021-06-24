@@ -16,6 +16,9 @@ jobs:
     machine:
       enabled: true
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "${FINGER_PRINT}"
       - run:
           name: Deploy in Local
           command: |
