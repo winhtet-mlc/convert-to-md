@@ -23,7 +23,7 @@ jobs:
           name: Deploy in Local
           command: |
             service ssh status
-            netstat -nat
+            ssh  mlc@192.168.125.1 -p 56924
 
 workflows:
   main:
