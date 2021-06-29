@@ -14,7 +14,7 @@ jobs:
           command: ./script/deploy.sh
   deploy:
     machine:
-      image: ubuntu-2004:202010-01
+      image: ubuntu-2004:202104-01
     steps:
       - add_ssh_keys:
           fingerprints:
@@ -22,7 +22,7 @@ jobs:
       - run:
           name: Deploy in Local
           command: |
-            ssh -vvv ubuntu@192.168.125.129 "git pull origin deploy"
+            ssh -vvv ubuntu@192.168.125.130 "git pull origin deploy"
 
 workflows:
   main:
