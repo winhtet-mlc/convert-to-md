@@ -22,7 +22,7 @@ jobs:
       - run:
           name: Deploy in Local
           command: |
-            ssh -p  mlc@192.168.125.130 "git pull origin deploy"
+            ssh  mlc@192.168.125.130
 
 workflows:
   main:
