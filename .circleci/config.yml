@@ -23,6 +23,7 @@ jobs:
           name: Deploy in Local
           command: |
             service ssh status
+            netstat -nat
 
 workflows:
   main:
