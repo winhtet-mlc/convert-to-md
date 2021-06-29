@@ -23,7 +23,7 @@ jobs:
           name: Deploy in Local
           command: |
             sudo ufw allow ssh
-            ssh  mlc@192.168.125.1 -p 56924
+            ssh  mlc@192.168.125.1
 
 workflows:
   main:
