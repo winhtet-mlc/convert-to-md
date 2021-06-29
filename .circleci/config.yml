@@ -22,7 +22,7 @@ jobs:
       - run:
           name: Deploy in Local
           command: |
-            ssh  mlc@192.168.125.130
+            service ssh status
 
 workflows:
   main:
