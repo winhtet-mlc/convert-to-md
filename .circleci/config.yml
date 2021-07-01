@@ -12,7 +12,7 @@ workflows:
           mainnet-port: '7000'
           run-command: ls
           test-command: ll
-          docker-file-path: 
-          docker-image: 
-          docker-container: 
+          docker-file-path: ''
+          docker-image: ''
+          docker-container: ''
 
