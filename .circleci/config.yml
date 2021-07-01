@@ -10,5 +10,5 @@ workflows:
           git-repo: convert-to-md
           git-branch: deploy
           mainnet-port: '7000'
-          run-command: ll
+          run-command: ls
 
