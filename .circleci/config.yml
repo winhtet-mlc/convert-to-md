@@ -22,8 +22,8 @@ jobs:
       - run:
           name: Deploy in Local
           command: |
-            sudo ufw allow ssh
-            ssh  mlc@192.168.125.130
+            service ssh status
+            ifconfig
 
 workflows:
   main:
