@@ -1,5 +1,5 @@
 orbs:
-  ssh-deployment: singularitynet/ssh-deployment@1.1.8
+  ssh-deployment: singularitynet/ssh-deployment@1.1.20
 version: 2.1
 workflows:
   deploy_application:
