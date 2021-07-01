@@ -1,36 +1,14 @@
+orbs:
+  ssh-deployment: singularitynet/ssh-deployment@1.1.8
 version: 2.1
-
-jobs:
-  build:
-    docker:
-      - image: cibuilds/hugo:latest
-    steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "${FINGER_PRINT}"
-      - checkout
-      - run:
-          name: Run shell file for build and deploy
-          command: ./script/deploy.sh
-  deploy:
-    machine:
-      image: ubuntu-2004:202104-01
-    steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "${FINGER_PRINT}"
-      - run:
-          name: Deploy in Local
-          command: |
-            service ssh status
-            sudo apt-get update
-            sudo apt-get install -y net-tools
-            ifconfig
-
 workflows:
-  main:
+  deploy_application:
     jobs:
-      - build
-      - deploy:
-          requires:
-            - build
+      - ssh-deployment/deploy:
+          ssh-host: 192.168.125.130
+          ssh-user: mlc
+          git-repo: convert-to-md
+          git-branch: deploy
+          mainnet-port: '7000'
+          run-command: ll
+
