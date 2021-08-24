@@ -1,10 +1,7 @@
-orbs:
-  ssh-deployment: arturgontijo/ssh-deployment@1.1.20
 version: 2.1
-<<<<<<< HEAD
 
 jobs:
-  build:
+  build-deploy:
     docker:
       - image: cibuilds/hugo:latest
     steps:
@@ -14,40 +11,12 @@ jobs:
       - checkout
       - run:
           name: Run shell file for build and deploy
-          command: ./script/deploy.sh
-  deploy:
-    machine:
-      image: ubuntu-2004:202104-01
-    steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "${FINGER_PRINT}"
-      - run:
-          name: Deploy in Local
-          command: |
-            ssh  mlc@192.168.125.1 -p 56924
-
-=======
->>>>>>> 1b2adc703487c2439fbec21fa4977e7c43299170
+          command: ./scripts/deploy.sh
 workflows:
-  deploy_application:
+  main:
     jobs:
-<<<<<<< HEAD
-      - build
-      - deploy:
-          requires:
-            - build
-=======
-      - ssh-deployment/deploy:
-          ssh-host: 192.168.125.130
-          ssh-user: mlc
-          git-repo: convert-to-md
-          git-branch: deploy
-          mainnet-port: '7000'
-          run-command: ls
-          test-command: ll
-          docker-file-path: ''
-          docker-image: ''
-          docker-container: ''
-
->>>>>>> 1b2adc703487c2439fbec21fa4977e7c43299170
+      - build-deploy:
+          filters:
+            branches:
+              only:
+                - master
